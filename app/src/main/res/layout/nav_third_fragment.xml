@@ -25,9 +25,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Group and Individual Volunteer Opportunities"
+        android:text="Group and individual volunteer opportunities are always available! As a volunteer, you could participate in a variety of programs, including the Family Resource Center, Community Action Program, Food Bank, Senior Centers, and I-HELP. We also encourage you to take a tour of our facilities."
         android:id="@+id/textView69"
         android:layout_gravity="center_horizontal"
+        android:gravity="center"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"/>
 
@@ -36,14 +37,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.18"></LinearLayout>
+        android:layout_weight="0.10">
+
+    </LinearLayout>
 
     <Button
-        android:layout_width="165dp"
+        android:layout_width="128dp"
         android:layout_height="wrap_content"
         android:text="Sign Up"
         android:id="@+id/signupButton"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.11" />
+        android:layout_weight="0.26"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="For more information, please contact Yessica Munoz at yessica@chandlerfoodbank.org or 480-963-1423 ex. 102."
+        android:id="@+id/textView5"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
 
 </LinearLayout>

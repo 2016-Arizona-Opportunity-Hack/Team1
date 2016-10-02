@@ -23,7 +23,7 @@
         android:layout_width="211dp"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Donations of any amount are greatly appreciated"
+        android:text="Donations of any amount are greatly appreciated."
         android:layout_gravity="center_horizontal"
         android:id="@+id/textView70" />
 
@@ -32,13 +32,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.16"></LinearLayout>
+        android:layout_weight="0.05"></LinearLayout>
 
     <Button
-        android:layout_width="175dp"
+        android:layout_width="137dp"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Donate Now"
         android:id="@+id/donateButton"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.11" />
+        android:layout_weight="0.18"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Or, try out our virtual food drive!"
+        android:id="@+id/textView71"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Virtual Food Drive"
+        android:id="@+id/virtualFoodDriveLink"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

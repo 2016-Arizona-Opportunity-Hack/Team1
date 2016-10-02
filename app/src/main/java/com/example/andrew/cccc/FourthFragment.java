@@ -79,11 +79,13 @@ public class FourthFragment extends Fragment implements View.OnClickListener {
             case R.id.contactUs:
                 fragmentClass2 = ContactUs.class;
                 break;
-            case R.id.websiteLink:
-                goToUrl("http://chandlerfoodbank.org/");
-                break;
             default:
                 fragmentClass2 = FourthFragment.class;
+                break;
+        }
+
+        if(v.getId() == R.id.websiteLink) {
+            goToUrl("http://chandlerfoodbank.org/");
         }
 
         try {

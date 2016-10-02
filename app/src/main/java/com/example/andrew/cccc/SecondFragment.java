@@ -14,7 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 public class SecondFragment extends Fragment implements View.OnClickListener{
-    Button donateButton;
+    Button donateButton, virtualFoodDriveLink;
     @Override
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container, Bundle
@@ -25,7 +25,9 @@ public class SecondFragment extends Fragment implements View.OnClickListener{
                 container, false);
 
         donateButton = (Button)view.findViewById(R.id.donateButton);
+        virtualFoodDriveLink = (Button)view.findViewById(R.id.virtualFoodDriveLink);
         donateButton.setOnClickListener(this);
+        virtualFoodDriveLink.setOnClickListener(this);
 
         return view;
     }
@@ -34,6 +36,9 @@ public class SecondFragment extends Fragment implements View.OnClickListener{
     public void onClick(View v) {
         if(v.getId() == R.id.donateButton){
             goToUrl("http://chandlerfoodbank.org/causes/donate/");
+        }
+        else if(v.getId() == R.id.virtualFoodDriveLink){
+            goToUrl("http://fooddriveonline.org/chandlerfoodbank/");
         }
     }
 
