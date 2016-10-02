@@ -6,7 +6,7 @@
 
     <ImageView
         android:layout_width="118dp"
-        android:layout_height="115dp"
+        android:layout_height="112dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/help" />

@@ -11,4 +11,46 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.15"
         android:src="@drawable/family" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Family Resource Center"
+        android:id="@+id/textView35"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="From early literacy to fun activities, the Family Resource Center provides a safe, positive envionment for family development."
+        android:id="@+id/textView36"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="8dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView33" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Events and Resources"
+        android:id="@+id/textView37"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The Family Resource Center provides multiple events throughout the year such as the Giggles, Squiggles and Squirm program as well as Operation Santa. Some services the center provides are child care, benefits connections, and community health programs. For more information, please visit our website at chandlerfoodbank.org/family-resource-center/"
+        android:id="@+id/textView38"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
 </LinearLayout>

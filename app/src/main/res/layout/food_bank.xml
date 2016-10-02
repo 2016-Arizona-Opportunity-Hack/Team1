@@ -4,6 +4,14 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Food Bank"
+        android:id="@+id/textView39"
+        android:layout_gravity="center_horizontal" />
+
     <ImageView
         android:layout_width="240dp"
         android:layout_height="100dp"
@@ -11,4 +19,86 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.19"
         android:src="@drawable/food" />
+
+    <TextView
+        android:layout_width="252dp"
+        android:layout_height="53dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Each year, CCCC distributes over 15,000 food boxes with enough food to feed over 50,000 adults and children."
+        android:id="@+id/textView40"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView66" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Emergency Food Boxes"
+        android:id="@+id/textView41"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Emergency Food Boxes are distributed Mondat 12:00 PM through 3:00 PM and Tuesday, Wednesday, and Thursday 9:00 AM through 12:00 PM."
+        android:id="@+id/textView42"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView65" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Supplemental Food Boxes"
+        android:id="@+id/textView43"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Supplemental Food Boxes containing fresh perishable food are distributed every Friday from 9:00 AM to 11:00 AM. Food tickets are distributed beginning at 7:30 AM."
+        android:id="@+id/textView45"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView47" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Location and Directions"
+        android:id="@+id/textView44"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The Food Bank is located at Chandler Christian Community Center 345 S. California St., Chandler, AZ 85225. You may also reach CCCC by phone at 480-963-1423."
+        android:id="@+id/textView46"
+        android:layout_weight="0.09"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
 </LinearLayout>

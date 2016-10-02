@@ -4,6 +4,14 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="I-HELP"
+        android:id="@+id/textView48"
+        android:layout_gravity="center_horizontal" />
+
     <ImageView
         android:layout_width="240dp"
         android:layout_height="100dp"
@@ -11,4 +19,68 @@
         android:layout_gravity="center_horizontal"
         android:layout_weight="0.16"
         android:src="@drawable/ihelp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Interfaith Homeless Emergency Lodging Program(I-HELP) provides a safe place to sleep and a hot meal for homeless adults every night of the week as well as case management services to help those individuals regain stability."
+        android:id="@+id/textView49"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Emergency Shelter"
+        android:id="@+id/textView50"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Beginning October 3, the I-HELP intake site will change to Chandler Christian Community Center, 345 S California St. Chandler, AZ 85225. Intake is from 5:00 PM-5:15 PM everyday. Report to CCCC no earlier than 5:00 PM for admission into I-HELP."
+        android:id="@+id/textView51"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="For more information about all I-HELP services, contact our coordinator, Bill Rotondo, at bill@chandlerfoodbank.org"
+        android:id="@+id/textView52"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Case Management"
+        android:id="@+id/textView53"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Some I-HELP Case Management services include job placement, medical referrals, bus passes, benefits connections, and housing assistance"
+        android:id="@+id/textView54"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="For more information about these services, contact Daniel Albertson, at 480-963-1423, ext 101 or daniel@chandlerfoodbank.org"
+        android:id="@+id/textView55"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
 </LinearLayout>

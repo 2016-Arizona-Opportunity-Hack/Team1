@@ -23,11 +23,9 @@ public class FourthFragment extends Fragment implements View.OnClickListener {
 
     Button contactUs, seniorCenters, iHelp, foodBank, familyResourceCenter, communityActionProgram, websiteLink;
 
-    @Override
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container, Bundle
                                      savedInstanceState) {
-
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.nav_fourth_fragment,
                 container, false);

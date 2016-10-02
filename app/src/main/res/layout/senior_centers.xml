@@ -4,6 +4,15 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Senior Centers"
+        android:id="@+id/textView56"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04" />
+
     <ImageView
         android:layout_width="240dp"
         android:layout_height="100dp"
@@ -16,20 +25,97 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Chandler Christian Community Center provides the senior nutrition program at both the Gilbert and Chandler Senior Centers. Both Senior Centers provide hours of camaraderie, intellectual stimulation and nutritious meals. In addition to serving a hot meal, both centers offer an array of activities, outings, workshops, classes, medical programs, transportation, referrals, and volunteer opportunities."
-        android:id="@+id/textView16" />
+        android:text="Senior Centers provide hours of camaraderie, intellectual stimulation and nutritious meals. Centers also offer an array of activities, outings, workshops, classes, medical programs, transportation, referrals, and volunteer opportunities."
+        android:id="@+id/textView16"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Senior Meals and Activities"
-        android:id="@+id/textView17" />
+        android:id="@+id/textView17"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Meals at the Gilbert Senior Center are served from 11:15 am to 1:00 pm; M-F. Meals at the Chandler Senior Center are served at 11:30 am only with a suggested check in time of 11:00 am; M-F. The suggested contribution for those 60 and above and those under 60 with disabilities is $2.50. All other participants, the cost is $4.00.  Seniors and those under 60 with disabilities are required to fill out participant forms on an annual basis. You will receive a form on your first visit to the either senior center."
-        android:id="@+id/textView18" />
+        android:text="Specific times for meals at both the Gilbert Senior Center and the Chandler Senior Center can be found on our website at chandlerfoodbank.org/seniors/"
+        android:id="@+id/textView18"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="We provide both on-site meals as well as home deli=vered meals."
+        android:id="@+id/textView57"
+        android:layout_weight="0.04"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Activities"
+        android:id="@+id/textView58"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="There are over 840 activities provided each year such as Zumba, BINGO, Restaurant Outings and much much more."
+        android:id="@+id/textView59"
+        android:layout_weight="0.04"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contact and Directions"
+        android:id="@+id/textView60"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Chandler Senior Center                     Gilbert Senior Center"
+        android:id="@+id/textView61"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="202 E Boston St.                                130 N Oak St."
+        android:id="@+id/textView62"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Chandler, AZ 85225                           Gilbert, AZ 85233"
+        android:id="@+id/textView63"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(480) 782-2721                                 (480) 503-6061"
+        android:id="@+id/textView64"
+        android:layout_weight="0.04"
+        android:paddingLeft="10dp" />
 </LinearLayout>
