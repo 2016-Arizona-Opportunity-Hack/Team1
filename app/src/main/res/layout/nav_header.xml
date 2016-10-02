@@ -12,7 +12,7 @@
         android:layout_width="135dp"
         android:layout_height="138dp"
         android:id="@+id/imageView10"
-        android:src="@drawable/menupicture" />
+        android:src="@drawable/cccclogo" />
 
     <LinearLayout
         android:orientation="vertical"
