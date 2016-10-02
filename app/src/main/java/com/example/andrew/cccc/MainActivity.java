@@ -53,20 +53,23 @@ public class MainActivity extends AppCompatActivity {
         Class fragmentClass;
         switch(menuItem.getItemId()) {
             case R.id.nav_first_fragment:
-                //fragmentClass = FirstFragment.class;
+                fragmentClass = FirstFragment.class;
                 break;
             case R.id.nav_second_fragment:
-                //fragmentClass = SecondFragment.class;
+                fragmentClass = SecondFragment.class;
                 break;
             case R.id.nav_third_fragment:
-                //fragmentClass = ThirdFragment.class;
+                fragmentClass = ThirdFragment.class;
+                break;
+            case R.id.nav_fourth_fragment:
+                fragmentClass = FourthFragment.class;
                 break;
             default:
-                //fragmentClass = FirstFragment.class;
+                fragmentClass = MainActivity.class;
         }
 
         try {
-            //fragment = (Fragment) fragmentClass.newInstance();
+            fragment = (Fragment) fragmentClass.newInstance();
         } catch (Exception e) {
             e.printStackTrace();
         }
