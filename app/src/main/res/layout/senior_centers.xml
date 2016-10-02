@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.17"
+        android:src="@drawable/senior" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Chandler Christian Community Center provides the senior nutrition program at both the Gilbert and Chandler Senior Centers. Both Senior Centers provide hours of camaraderie, intellectual stimulation and nutritious meals. In addition to serving a hot meal, both centers offer an array of activities, outings, workshops, classes, medical programs, transportation, referrals, and volunteer opportunities."
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Senior Meals and Activities"
+        android:id="@+id/textView17" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Meals at the Gilbert Senior Center are served from 11:15 am to 1:00 pm; M-F. Meals at the Chandler Senior Center are served at 11:30 am only with a suggested check in time of 11:00 am; M-F. The suggested contribution for those 60 and above and those under 60 with disabilities is $2.50. All other participants, the cost is $4.00.  Seniors and those under 60 with disabilities are required to fill out participant forms on an annual basis. You will receive a form on your first visit to the either senior center."
+        android:id="@+id/textView18" />
+</LinearLayout>

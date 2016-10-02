@@ -4,14 +4,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v7.widget.Toolbar;
 import android.support.v4.widget.DrawerLayout;
 import android.support.design.widget.NavigationView;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
-//import android.R;
 
 public class MainActivity extends AppCompatActivity {
     private DrawerLayout mDrawer;
@@ -49,8 +47,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void selectDrawerItem(MenuItem menuItem) {
         // Create a new fragment and specify the fragment to show based on nav item clicked
+
         Fragment fragment = null;
         Class fragmentClass;
+
+
         switch(menuItem.getItemId()) {
             case R.id.nav_first_fragment:
                 fragmentClass = FirstFragment.class;

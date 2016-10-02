@@ -3,19 +3,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/home"
             android:title="Home"
             android:checked="true" />
         <item
             android:id="@+id/nav_second_fragment"
-            android:icon="@drawable/ic_one"
+            android:icon="@drawable/donate"
             android:title="Donate" />
         <item
             android:id="@+id/nav_third_fragment"
-            android:icon="@drawable/ic_two"
+            android:icon="@drawable/volunteer"
             android:title="Volunteer" />
         <item
             android:id="@+id/nav_fourth_fragment"
-            android:icon="@drawable/ic_three"
+            android:icon="@drawable/gethelp"
             android:title="Get Help" />
     </group>
 </menu>

@@ -4,17 +4,9 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Getting Help"
-        android:id="@+id/textView4"
-        android:layout_gravity="center_horizontal" />
-
     <ImageView
-        android:layout_width="162dp"
-        android:layout_height="157dp"
+        android:layout_width="118dp"
+        android:layout_height="115dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
         android:src="@drawable/help" />
@@ -24,7 +16,7 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:text="Community Action Program"
-        android:id="@+id/button"
+        android:id="@+id/communityActionProgram"
         android:layout_gravity="center_horizontal" />
 
     <Button
@@ -32,7 +24,7 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:text="Family Resource Center"
-        android:id="@+id/button2"
+        android:id="@+id/familyResourceCenter"
         android:layout_gravity="center_horizontal" />
 
     <Button
@@ -40,7 +32,7 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:text="Food Bank"
-        android:id="@+id/button3"
+        android:id="@+id/foodBank"
         android:layout_gravity="center_horizontal" />
 
     <Button
@@ -48,7 +40,7 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:text="I-Help"
-        android:id="@+id/button4"
+        android:id="@+id/iHelp"
         android:layout_gravity="center_horizontal" />
 
     <Button
@@ -56,7 +48,7 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:text="Senior Centers"
-        android:id="@+id/button5"
+        android:id="@+id/seniorCenters"
         android:layout_gravity="center_horizontal" />
 
     <Button
@@ -64,7 +56,21 @@
         android:layout_width="240dp"
         android:layout_height="50dp"
         android:text="Contact Us"
-        android:id="@+id/button6"
+        android:id="@+id/contactUs"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView6"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit our website"
+        android:id="@+id/websiteLink"
         android:layout_gravity="center_horizontal" />
 
 </LinearLayout>
