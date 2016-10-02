@@ -4,15 +4,12 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="289dp"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Volunteering"
-        android:id="@+id/textView3"
+        android:id="@+id/imageView9"
         android:layout_gravity="center_horizontal"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"/>
+        android:src="@drawable/volunteerpic" />
 
     <LinearLayout
         android:orientation="vertical"
