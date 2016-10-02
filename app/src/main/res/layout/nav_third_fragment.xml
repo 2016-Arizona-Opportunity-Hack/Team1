@@ -14,11 +14,18 @@
         android:paddingLeft="10dp"
         android:paddingRight="10dp"/>
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09"></LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Group and Volunteer Opportunities etc."
+        android:text="Group and Individual Volunteer Opportunities"
         android:id="@+id/textView69"
         android:layout_gravity="center_horizontal"
         android:paddingLeft="10dp"
@@ -29,13 +36,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.40"></LinearLayout>
+        android:layout_weight="0.18"></LinearLayout>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:text="Sign Up"
         android:id="@+id/signupButton"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11" />
 
 </LinearLayout>
